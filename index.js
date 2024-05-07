@@ -3,14 +3,11 @@ import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 
-// const configuration = new Configuration ({
-//     oragnization: "org-luARjjyTeb5FLVVoL8Ok8PRy",
-//     apiKey: "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",
-// });
+
 
 const openai = new OpenAI({
     organization: "org-luARjjyTeb5FLVVoL8Ok8PRy",
-    apiKey: "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",
+    
 });
 
 const app = express();
